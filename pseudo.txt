@@ -1,0 +1,24 @@
+round = 0
+while(TRUE){
+    checking on ip differences
+    counting = 0
+    while (counting < 5){
+        play the video and ads without any interruptions until the end
+        (or we could just set a time limit: 30+270+15=315s)
+        clear history
+        refresh and counting ++
+        endloop
+    }
+    switch ip addresses (?automate it with geoProxy, feed inputs automatically)
+    round ++
+    display round  in some kinda way
+}
+
+
+
+  "browser_action":{
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+
+    https://www.youtube.com/watch?v=s7X5JuqEXuI

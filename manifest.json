@@ -1,0 +1,21 @@
+{
+    "name": "svt_yt_auto",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "yaya",
+    "icons":{
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "16": "icon16.png"
+    },
+    "permissions": [
+        "http://*/*",
+        "proxy"
+      ],
+    "content_scripts": [
+        {
+        "matches": ["https://www.youtube.com/watch?v=u4iDL3c0T1c"],
+        "js": ["auto3.js"]
+        }
+    ]
+}
